@@ -68,11 +68,16 @@ The session is designed around **Explain → Demonstrate → Explore**.
 
 ## 4. Known Limitations
 
-* **Difficulty detecting sarcasm or indirect meaning:**  
-  Because the logic is based on basic polarity scoring, it struggles when the literal text does not reflect the intended emotion.
+* **Struggles with emotional tone beyond simple wording:**  
+  The app mainly checks word-level polarity, so it cannot recognize deeper emotional context (e.g., excitement behind calm wording).
 
-* **Limited handling of slang or multilingual input:**  
-  Expressions that use informal or mixed language may produce inaccurate results.
+* **Weak performance on playful or metaphorical text:**  
+  Sentences like “My brain is on vacation today” can be interpreted incorrectly because literal meaning differs from intended feeling.
 
-* **Challenges with nuanced expressions:**  
-  Sentences like “I’m not unhappy” can confuse the system because polarity alone cannot capture layered meaning.
+* **Limited multilingual and hybrid-language support:**  
+  Inputs mixing English with another language (e.g., “Aaj mood off but trying to stay positive”) may lead to inconsistent classification.
+
+* **Difficulty with subtle intensity differences:**  
+  It treats mild expressions (“This is slightly annoying”) similarly to stronger ones because basic polarity may not reflect emotional strength.
+
+
