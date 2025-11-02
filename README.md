@@ -49,22 +49,27 @@ Before evaluation, a small filter checks for sensitive or inappropriate words to
 
 ## 3. Teaching Approach — Approx. 60 Minutes
 
-The session is designed around **Explain → Demonstrate → Explore**.
+### Introduction (10 min)
+1. Short discussion: “Can computers understand feelings?”
+2. Ask students to share sentences with different tones.
 
-* **10 min — Introduction**
-  * Discuss how machines attempt to interpret text and emotion
+### Concept Teaching (15 min)
+1. Introduce sentiment score in simple language.
+2. Explain how rules divide scores into categories.
+3. Introduce the idea of filtering unsafe language.
 
-* **25 min — Demonstration + Explanation**
-  * Show how the app processes input and assigns a mood label  
-  * Use Teacher Mode to display polarity values and mapping logic  
+### App Demonstration (15 min)
+1. Show how text is entered.
+2. Display output emoji + short explanation.
+3. Observe changes when wording changes.
 
-* **20 min — Student Activity**
-  * Students experiment with their own examples  
-  * They try unusual sentences (including sarcastic attempts) and compare results  
-
-* **5 min — Recap**
-  * Review the simple rules used in classification  
-  * Discuss why the model sometimes makes mistakes and why safety filters matter  
+### Student Practice (20 min)
+1. Students experiment using their own short sentences.
+2. Ask them to try:
+   - Happy sentence
+   - Sad sentence
+   - Very neutral sentence
+   - Slightly confusing sentence
 
 ---
 
