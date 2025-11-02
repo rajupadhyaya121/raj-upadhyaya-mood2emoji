@@ -1,3 +1,5 @@
+## Streamlit-link: https://text-mood-detector-for-kids-bxjgpnya4bcvxgz6pbkvgp.streamlit.app/
+
 # Kid-Safe Text-Mood Detector
 
 This project is a lightweight web tool that examines a short text input and returns a child-friendly mood output (such as happy, neutral, or sad).  
